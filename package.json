@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "devDependencies": {
+        "elm": "latest-0.19.1",
+        "elm-review": "^2.0.0",
+        "elm-test": "latest-0.19.1",
+        "elm-verify-examples": "^5.0.0"
+    },
+    "scripts": {
+        "test": "elm-test && elm-verify-examples --run-tests && elm-review"
+    }
+}
